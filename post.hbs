@@ -34,11 +34,11 @@
             </div>
         {{/author}}
         <div class="post-foot-right">
-            <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time>
+            <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY MM DD'}}</time>
         </div>
         <div>
             <!--{{#if tags}}<code class="tag">{{tags separator="</code> <code class=\"tag\">"}}</code>{{/if}}-->
-            {{#if tags}}TAGGED IN {{tags separator=", "}}{{/if}}
+            {{#if tags}}TAGI {{tags separator=", "}}{{/if}}
         </div>
     </div>
 {{/post}}
