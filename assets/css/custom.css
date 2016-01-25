@@ -57,6 +57,7 @@ body {
 
 p {
     font-weight: 300;
+    margin-bottom: 30px !important;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -159,7 +160,7 @@ p {
 }
 
 /*
- *  
+ *
  * Footer
  *
  */
@@ -197,9 +198,9 @@ p {
 }
 
 /*
- *  
+ *
  * Affix and center
- *   
+ *
  */
 @media (min-width: 768px) {
     /* Pull out the header and footer */
@@ -299,7 +300,3 @@ code {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-
-
-
