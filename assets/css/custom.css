@@ -252,6 +252,11 @@ img {
     max-width: 100%;
 }
 
+img.dice {
+    width: 55px;
+    height: 55px;
+}
+
 code {
     text-shadow: none;
     color: #1B1B1B;
